@@ -1,0 +1,77 @@
+.footer {
+    padding: 2rem 0rem 0 0rem;
+    background-color: rgb(197, 197, 197);
+}
+
+.footer .footer_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(197, 197, 197);
+    border: none;
+
+}
+
+.footer .footer_card .card {
+    border: none;
+    width: 20%;
+    margin: 1rem;
+    min-width: 200px;
+    border-radius: 0 5px 0 5px;
+    background-color: rgb(197, 197, 197);
+}
+
+.footer .footer_card .card .card_content hr {
+    width: 100%;
+    /* border: solid black; */
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.footer .footer_card .card .card_content p {
+    color: #007755;
+}
+
+.footer .parg {
+    padding: 0 3rem;
+}
+
+.footer .footer_lower {
+    background-color: rgb(46, 45, 45);
+    color: white;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    margin: auto;
+
+}
+
+.footer .footer_lower div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    cursor: pointer;
+    align-content: center;
+}
+
+.footer .footer_lower div ul {
+    display: flex;
+
+
+}
+
+.footer .footer_lower div ul li {
+    padding: 0 0.5rem;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.footer .footer_lower div ul li:hover {
+    color: #00876c;
+
+}
