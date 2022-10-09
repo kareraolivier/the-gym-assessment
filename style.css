@@ -3,6 +3,12 @@ body {
 
 }
 
+@media only screen and (max-width: 600px) {
+    .content ul {
+        display: none;
+    }
+}
+
 .nav {
     padding: 0 2rem;
     width: 100%;

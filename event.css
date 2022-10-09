@@ -47,6 +47,10 @@
     padding: 1rem;
 }
 
+.card_content_card .header :hover {
+    color: #005648;
+}
+
 .card_content_card .content {
     width: 30.5rem;
     font-size: 15px;
