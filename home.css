@@ -1,5 +1,5 @@
 .home {
-    padding: 0 2rem;
+    padding: 2rem 0;
     background-image: url("./image/header_dossier%20studium_1920p.jpg");
     width: 100%;
     height: 100vh;
@@ -7,4 +7,93 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.home h1 {
+    padding: 2rem;
+}
+
+.home p {
+    padding: 2rem;
+}
+
+.home_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2rem;
+
+
+}
+
+.home_card h1 {
+    padding: 2rem;
+}
+
+hr {
+    margin: 0 2rem;
+    padding: 2px;
+    width: 30%;
+    background-color: #07614f;
+}
+
+.home_card div {
+    width: 300px;
+    margin: 1rem;
+    background-color: #07614f;
+    color: white;
+
+    border-radius: 0 5px 0 5px;
+}
+
+.home_card div p {
+    align-items: center;
+}
+
+.home_bottom {
+    padding: 0 2rem;
+    height: 5rem;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+}
+
+.home_bottom input {
+    width: 30%;
+    height: 3rem;
+    margin: auto;
+    background-color: black;
+    border: solid white;
+    border-radius: 0 5px 0 5px;
+}
+
+.home_bottom input span {
+    margin-top: 1rem;
+    align-content: center;
+    align-items: center;
+}
+
+/* come back to collect span */
+.home_bottom input:focus {
+    border: solid black;
+    background-color: black;
+    color: white;
+
+}
+
+.home_bottom label {
+    width: 30%;
+    height: 3rem;
+    margin: auto;
+    border: solid white;
+    border-radius: 0 5px 0 5px;
+}
+
+/* come back to collect span */
+.home_bottom label span {
+    margin-right: 0;
 }
